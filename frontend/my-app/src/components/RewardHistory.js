@@ -4,8 +4,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 // Dummy reward history data
 const rewardHistory = [
-  { id: 1, dateTime: '2024-08-24 13:00', rewardsReceived: 50, userName: 'John Doe' },
-  { id: 2, dateTime: '2024-08-24 13:30', rewardsReceived: 75, userName: 'Jane Smith' },
+  { id: 1, dateTime: '2024-08-24 13:00', rewardsReceived: 50, userName: 'Test user A' },
+  { id: 2, dateTime: '2024-08-24 13:30', rewardsReceived: 75, userName: 'Test User B' },
 ];
 
 const RewardHistory = () => {

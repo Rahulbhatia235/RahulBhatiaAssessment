@@ -12,7 +12,7 @@ const NewReward = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   const [amount, setAmount] = useState('');
-  const [users, setUsers] = useState(['John Doe', 'Jane Smith']); // Exclude self in actual implementation
+  const [users, setUsers] = useState(['Test User A', 'Test User B']); // Exclude self in actual implementation
 
   const handleSubmit = (e) => {
     e.preventDefault();
